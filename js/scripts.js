@@ -52,3 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+}
